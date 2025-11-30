@@ -271,10 +271,10 @@ export default function Dashboard() {
           <div className="space-y-6 sm:space-y-8">
             <div className="text-center space-y-3 sm:space-y-4">
               <div className="text-5xl sm:text-6xl mb-3">🎯</div>
-              <h2 className="text-2xl sm:text-3xl font-red uppercase">
+              <h2 className="text-2xl sm:text-3xl font-black text-black uppercase">
                 WELCOME, {profile?.username}
               </h2>
-              <p className="text-sm sm:text-base font-bold uppercase px-4">
+              <p className="text-sm sm:text-base font-bold text-red-950 uppercase px-4">
                 BUILD CONSISTENCY THAT MAKES OTHERS UNCOMFORTABLE
               </p>
             </div>
